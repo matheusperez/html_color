@@ -3,7 +3,7 @@ library html_color;
 import 'package:flutter/material.dart';
 
 class HTMLColor {
-  static Color htmlColor({String hex, double opcity = 1}) {
+  static Color fromHTML({String hex, double opcity = 1}) {
     try {
       // NOTE verifica se o html esta correto
       if (hex.length < 6) {
