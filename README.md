@@ -34,14 +34,14 @@ A simple usage example:
 //import
 import 'package:html_color/html_color.dart';
 
-HTMLColor.fromHTML(hex: 'F1F1F1');
+HTMLColor.hex('F1F1F1');
 
 ```
 You can set the opacity if you want
 
 ```dart
 
-HTMLColor.fromHTML(hex: 'F1F1F1', opacity: .5);
+HTMLColor.hex('F1F1F1', opacity: .5);
 
 ```
 

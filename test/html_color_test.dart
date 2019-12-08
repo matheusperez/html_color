@@ -4,6 +4,6 @@ import 'package:html_color/html_color.dart';
 
 void main() {
   test('adds one to input values', () {
-    expect(HTMLColor.htmlColor(hex: 'FCFBFC'), 3);
+    expect(HTMLColor.hex('FCFBFC'), 3);
   });
 }

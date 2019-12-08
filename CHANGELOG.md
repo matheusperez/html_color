@@ -1,3 +1,9 @@
-## [0.0.1] - TODO: Add release date.
+## 1.0.1
+- Added hex
 
-* TODO: Describe initial release.
+## 1.0.0
+- Added fromHTML;
+
+## 0.0.1
+- Initial version
+
